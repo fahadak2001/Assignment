@@ -1,2 +1,2 @@
-https://fahadak2001.github.io/Assignment/
+Simple HTML, CSS PRACTICE ASSIGNMENT
 https://fahadak2001.github.io/FinalAssignment/
