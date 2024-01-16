@@ -43,10 +43,10 @@ container{
 	position:fixed;
 	width:100%;
 	top:0;
-    	background-color: black;
-    	height: 120px;
-    	border: none;
-    	border-radius: 0;
+    background-color: black;
+    height: 120px;
+    border: none;
+    border-radius: 0;
 	color:white;
 	z-index:1;
 }
@@ -61,20 +61,20 @@ container{
 }
 
 .hamburger{
-	position:relative;
-	bottom:10px;
-	right:4px;
+	position:fixed;
+	top:50px;
+	right:2px;
 	float:right;
 	padding:2px;
 	background-color:black;
 }
 
 .dropdown{
+	position:fixed;
 	background-color:#43464B;
 	height:250px;
 	width:40%;
 	border-radius:3%;
-	position:absolute;
 	left: 60%;
 	top: 110px;
 	display:none;
@@ -156,7 +156,7 @@ container{
 	background-image: url('bg.jpg'); 
     background-repeat: no-repeat; 
 	background-size: 100%;
-	background-color: black; 
+	background-color: black;
 }
 }
 @media (max-width: 767px){
