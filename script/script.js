@@ -12,5 +12,5 @@ var phlink = document.getElementById("phlink");
 phlink.addEventListener("click", phonelinkfunc);
 
 function phonelinkfunc() {
-    window.open("D:\\7th sem\\phone-selec\\main.html", "_blank");
+    window.open("https://fahadak2001.github.io/Phone-Finder/", "_blank");
 }
