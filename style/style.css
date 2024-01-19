@@ -4,14 +4,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --main-color: #001f3f; /* Dark Blue */
+    --sec-color: #001a33;  /* A slightly lighter shade of blue */
+    --dark-color: #000000; /* Black */
+    --light-color: #f3f3f3; /* Light Grey */
 }
 
 
 body{
 	font-family: 'Lato', sans-serif; 
-	background-image: url('bg.jpg'); 
-    background-repeat: no-repeat; 
-	background-size: 100%;
+	background: linear-gradient(to bottom, var(--main-color), var(--dark-color));
+    color: var(--light-color);
+	min-height: 100vh;
 }
 
 
@@ -29,10 +38,14 @@ img:hover{
 }
 
 
-
 container{
-	width:100%;
-	background-color:blue;
+	width: 375px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 35px 10px 35px;
+    box-shadow: 1px 1px 5px var(--main-color);
 }
 
 .icon{
@@ -135,12 +148,6 @@ container{
 		width: 33%;
 		float: left;
 	}
-	body{
-	font-family: 'Lato', sans-serif; 
-	background-image: url('bg.jpg'); 
-    background-repeat: no-repeat; 
-	background-size: 100%;
-}
 }
 @media (min-width: 768px) and (max-width: 991px){
   .col-lg-4 {
@@ -151,26 +158,12 @@ container{
    width: 100%;
    float: left;
  }
- body{
-	font-family: 'Lato', sans-serif; 
-	background-image: url('bg.jpg'); 
-    background-repeat: no-repeat; 
-	background-size: 100%;
-	background-color: black;
-}
 }
 @media (max-width: 767px){
   .col-lg-4{
     width: 100%;
     float: left;
   }
-  body{
-	font-family: 'Lato', sans-serif; 
-	background-image: url('bg.jpg'); 
-    background-repeat: no-repeat; 
-	background-size: 100%;
-	background-color: black;
-}
 }
 
 .row{
